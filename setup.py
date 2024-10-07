@@ -19,7 +19,7 @@ setup(
         "numpy",
         "xmltodict",
         "einops",
-        "torch==1.7.0",
+        "torch>=1.7.0",
         "torchvision==0.8.1",
         "torchzq==1.0.6",
         "tensorboard",
