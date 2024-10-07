@@ -6,7 +6,7 @@ This is the PyTorch implementation for the ECCV 2020 paper: [Stochastic Fine-gra
 
 ### 1. Installation
 
-```
+```bash
 pip install git+https://github.com/zheniu/stochastic-cslr
 ```
 
@@ -23,7 +23,7 @@ Also, you need to install `sclite` for evaluation. Take a look at step 2 for ins
 
 You can use the script `quick_test.py` for a quick test.
 
-```
+```bash
 python3 quick_test.py --data-root your_path_to/phoenix-2014-multisigner
 ```
 
@@ -46,15 +46,15 @@ The configuration files for deterministic and stochastic fine-grained labeling a
 
 Before running, change the `data_root` in the YAML configurations to `phoenix-2014-multisigner/` first.
 
-#### Train (for instance, dfl):
+#### Train (for instance, dfl)
 
-```
+```bash
 tzq config/dfl-fp16.yml train
 ```
 
 #### Test the trained model
 
-```
+```bash
 tzq config/dfl-fp16.yml test
 ```
 
@@ -62,7 +62,7 @@ tzq config/dfl-fp16.yml test
 
 You may cite this work by:
 
-```
+```bibtex
 @inproceedings{niu2020stochastic,
   title={Stochastic Fine-Grained Labeling of Multi-state Sign Glosses for Continuous Sign Language Recognition},
   author={Niu, Zhe and Mak, Brian},
